@@ -37,7 +37,7 @@ const LoginSignup = () => {
       <button className={action==="Login" ? "submit gray" : "submit"} onClick={ ()=>{setAction("Sign Up")} }>Sign Up</button>
       <button className={action==="Sign Up" ? "submit gray" : "submit"} onClick={ ()=>{setAction("Login")} }>Login</button>
       </div>
-      <a className="link-test" href="https://stunning-starship-ecd7f1.netlify.app/"><button className="begin-btn">Test</button></a>
+      <a className="link-test" href="https://stunning-starship-ecd7f1.netlify.app/" target="_blank"><button className="begin-btn">Test</button></a>
     </div>
   )
 }
